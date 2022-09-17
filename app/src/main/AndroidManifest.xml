@@ -17,6 +17,12 @@
             android:name=".AlertActivity"
             android:exported="false" />
         <activity
+            android:name=".GrupoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>

@@ -3,12 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.227" />
-        <entry key="app/src/main/res/layout/activity_alert.xml" value="0.38634643554687526" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_phone_auth.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/login.xml" value="0.20283203125" />
-        <entry key="app/src/main/res/layout/rounded_edittext.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/drawable/button_round.xml" value="0.307" />
+        <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/drawable/perfil_edit.xml" value="0.307" />
+        <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_grupo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_register.xml" value="0.33" />
       </map>
     </option>
   </component>
