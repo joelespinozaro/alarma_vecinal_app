@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Alarma Vecinal</string>
+    <string name="celular">Ingrese número de celular</string>
+    <string name="perfil">Perfil</string>
+    <string name="numero">000-000-000</string>
+    <string name="nombre">Ingrese su Nombre</string>
+    <string name="apellido">Ingrese su apellido</string>
+    <string name="guardar">Guardar</string>
+    <string name="grupo">Grupo</string>
+    <string name="nombre_grupo">Nombre de Grupo</string>
+    <string name="descipcion">Descripción</string>
+    <string name="agregar">Agregar Integrantes</string>
 </resources>
