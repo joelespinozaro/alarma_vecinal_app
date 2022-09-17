@@ -60,6 +60,7 @@
         android:text="Mensaje: Tengan cuidado, vi una persona en la puerta de Helder"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="484dp" />
@@ -70,6 +71,7 @@
         android:layout_height="wrap_content"
         android:background="#000000"
         android:backgroundTint="#000000"
+        android:backgroundTintMode="add"
         android:text="Cerrar"
         android:textColorLink="#000000"
         app:icon="@color/black"
