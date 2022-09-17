@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185128995979",
+    "project_id": "app-vecinal-001",
+    "storage_bucket": "app-vecinal-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185128995979:android:4c4abb5138135009d2188e",
+        "android_client_info": {
+          "package_name": "com.alarmavecinal.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185128995979-p26ou13rn1oaesg9f40vmlknfbu0c9hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE1hAul-pNo7jK6b2l-mvbULSvNNJMsxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185128995979-p26ou13rn1oaesg9f40vmlknfbu0c9hl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
