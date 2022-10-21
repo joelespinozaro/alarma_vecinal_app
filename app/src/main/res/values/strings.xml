@@ -1,13 +1,51 @@
 <resources>
     <string name="app_name">Alarma Vecinal</string>
-    <string name="celular">Ingrese número de celular</string>
     <string name="perfil">Perfil</string>
     <string name="numero">000-000-000</string>
-    <string name="nombre">Ingrese su Nombre</string>
-    <string name="apellido">Ingrese su apellido</string>
-    <string name="guardar">Guardar</string>
+
     <string name="grupo">Grupo</string>
     <string name="nombre_grupo">Nombre de Grupo</string>
     <string name="descipcion">Descripción</string>
     <string name="agregar">Agregar Integrantes</string>
+
+    <!-- Menu de Usuario-->
+    <string name="InicioUser">Inicio</string>
+    <string name="PerfilUser">Perfil</string>
+    <string name="RegistrarGrupo">Crear grupo</string>
+    <string name="Salir">Salir</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Sesion -->
+    <string name="sesion">Inicio de Sesion</string>
+    <string name="registrar">Registrar</string>
+
+    <!-- Registro de Usuario -->
+    <string name="Registro">Registro</string>
+    <string name="celular">Ingrese número de celular</string>
+    <string name="nombre">Ingrese su Nombre</string>
+    <string name="apellido">Ingrese su apellido</string>
+
+    <!-- Inicio -->
+    <string name="alerta">Alerta</string>
+    <string name="mensaje">Pulse este boton en caso de emergencia</string>
+    <string name="message">Escriba un mensaje ...</string>
+    <string name="policia">Policia</string>
+    <string name="bombero">Bombero</string>
+
+    <!-- Perfil -->
+    <string name="guardar">Guardar</string>
+    <string name="nameUser">Nombre de Usuario</string>
+    <string name="cellphoneUser">Numero de Usuario</string>
+    <string name="lastNameuser">Apellido de Usuario</string>
+
+    <!--Alerta -->
+    <string name="messageAlerta">¡Alerta!</string>
+    <string name="usuario">Usuario</string>
+    <string name="help">¡Esta pidiendo ayuda!</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="messageAlert">Tengan cuidado vi una persona en la puerta de Helder</string>
 </resources>

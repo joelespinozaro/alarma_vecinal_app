@@ -8,4 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primary_color">#992121</color>
+
+    <color name="colorPrimary">#FE9A2E</color>
+    <color name="colorPrimaryDark">#FA5858</color>
+    <color name="colorAccent">#FE9A2E</color>
+    <color name="colorRojo">#EE371A</color>
+    <color name="colorPlomo">#D4C7C5</color>
 </resources>
