@@ -14,27 +14,17 @@
         <entry key="..\:/MISDOCUMENTOS/Nueva carpeta/alarma_vecinal_app/app/src/main/res/layout/activity_validar_codigo.xml" value="0.36666666666666664" />
         <entry key="..\:/MISDOCUMENTOS/Nueva carpeta/alarma_vecinal_app/app/src/main/res/layout/activity_validar_num.xml" value="0.36666666666666664" />
         <entry key="..\:/MISDOCUMENTOS/Nueva carpeta/alarma_vecinal_app/app/src/main/res/layout/home3.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_alert.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_grupo.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_main_user.xml" value="0.2246376811594203" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_message_alerta.xml" value="0.33" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_register.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_sesion.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_validar_codigo.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/activity_validar_num.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/carga.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/encabezado.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/fragment_crear_grupo.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/fragment_inicio.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/fragment_perfil.xml" value="0.2570281124497992" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/layout/home3.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/user/Desktop/Repositorio_AlertaVecinal/alarma_vecinal_app/app/src/main/res/menu/menu_user.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/drawable/button_round.xml" value="0.307" />
         <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/drawable/perfil_edit.xml" value="0.307" />
         <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_grupo.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main_user.xml" value="0.24722222222222223" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.4108469080041956" />
+        <entry key="app/src/main/res/layout/activity_sesion.xml" value="0.17685185185185184" />
+        <entry key="app/src/main/res/layout/activity_validar_codigo.xml" value="0.2481582641601563" />
+        <entry key="app/src/main/res/layout/activity_validar_num.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/fragment_inicio.xml" value="0.17685185185185184" />
       </map>
     </option>
   </component>
