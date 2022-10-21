@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/InicioUser"
+            android:title="@string/InicioUser"
+            android:icon="@drawable/home_ico"/>
+        <item
+            android:id="@+id/PerfilUser"
+            android:title="@string/PerfilUser"
+            android:icon="@drawable/user_ico"/>
+        <item
+            android:id="@+id/RegistrarGrupo"
+            android:title="@string/RegistrarGrupo"
+            android:icon="@drawable/group_ico"/>
+        <item
+            android:id="@+id/Salir"
+            android:title="@string/Salir"
+            android:icon="@drawable/salir_ico"/>
+
+    </group>
+
+</menu>

@@ -14,22 +14,26 @@
         android:theme="@style/Theme.AlarmaVecinal"
         tools:targetApi="31">
         <activity
+            android:name=".MessageAlerta"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityUser"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".ValidarCodigoActivity"
             android:exported="false" />
         <activity
             android:name=".ValidarNumActivity"
             android:exported="false" />
         <activity
-            android:name=".AlertActivity"
-            android:exported="false" />
-        <activity
-            android:name=".GrupoActivity"
+            android:name=".SesionActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Carga"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

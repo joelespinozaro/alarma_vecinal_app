@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A08282"
-    android:backgroundTint="#A08282"
-    android:padding="40dp"
-    tools:context=".RegisterActivity">
+    tools:context=".fragmentos.CrearGrupo"
+    android:background="#A08282">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -16,76 +14,80 @@
         android:padding="15dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:text="@string/grupo"
             android:gravity="center"
-            android:text="@string/Registro"
             android:textColor="#fff"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:src="@drawable/perfil" />
+            android:src="@drawable/sirena"/>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="20dp"
             android:textColorHint="#fff">
-
             <EditText
-                android:id="@+id/celular"
+                android:id="@+id/nameGroup"
+                android:hint="@string/nombre_grupo"
+                android:textColor="#fff"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#A08282"
-                android:hint="@string/celular"
-                android:inputType="phone" />
+                android:inputType="textCapWords|textAutoCorrect"
+                android:layout_marginTop="20dp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:textColorHint="#fff">
-
             <EditText
-                android:id="@+id/nombre"
+                android:id="@+id/descripcion"
+                android:hint="@string/descipcion"
+                android:textColor="#fff"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
                 android:background="#A08282"
-                android:hint="@string/nombre"
-                android:inputType="textCapWords|textAutoCorrect" />
+                android:layout_marginTop="30dp"/>
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:textColorHint="#fff">
-
             <EditText
-                android:id="@+id/apellido"
+                android:id="@+id/contact"
+                android:hint="Contactos"
+                android:background="#A08282"
+                android:textColor="#fff"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:background="#A08282"
-                android:hint="@string/apellido"
-                android:inputType="textCapWords|textAutoCorrect" />
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/register"
+            android:id="@+id/guardarGrupo"
+            android:textColor="#fff"
+            android:text="@string/guardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/Registro"
-            android:onClick="Registrar"
-            android:textColor="#fff"
-
-            android:textColorHint="@color/black" />
+            android:layout_marginTop="80dp"
+            android:background="@color/black"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-</RelativeLayout>
+
+</ScrollView>
