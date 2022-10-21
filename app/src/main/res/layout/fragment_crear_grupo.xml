@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#A08282"
-                android:inputType="textCapWords|textAutoCorrect"
+                android:inputType="textCapWords|textAutoCorrect|text"
                 android:layout_marginTop="20dp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
