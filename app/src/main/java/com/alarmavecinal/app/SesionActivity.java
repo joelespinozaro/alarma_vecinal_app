@@ -17,7 +17,7 @@ public class SesionActivity extends AppCompatActivity {
         registro = (Button) findViewById(R.id.Registrar);
     }
     public void Sesion(View view){
-        Intent intent = new Intent(this, MainActivityUser.class);
+        Intent intent = new Intent(this, ValidarNumActivity.class);
         startActivity(intent);
         finish();
     }
