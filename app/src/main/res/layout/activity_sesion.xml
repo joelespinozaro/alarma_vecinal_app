@@ -28,13 +28,26 @@
             android:onClick="Sesion"
             android:text="@string/sesion" />
 
-        <Button
-            android:id="@+id/Registrar"
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:onClick="Registrar"
-            android:text="@string/registrar" />
+        />
+<!--        <Button-->
+<!--            android:id="@+id/InicioSesion"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:text="@string/sesion"-->
+<!--            android:onClick="Sesion"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/Registrar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:onClick="Registrar"-->
+<!--            android:text="@string/registrar" />-->
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
