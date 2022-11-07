@@ -48,4 +48,20 @@
     <string name="help">¡Esta pidiendo ayuda!</string>
     <string name="cerrar">Cerrar</string>
     <string name="messageAlert">Tengan cuidado vi una persona en la puerta de Helder</string>
+
+    <!-- Send Message -->
+    <string name="verificacion">Verificación</string>
+    <string name="sendVerification">Necesitamos validar el número celular que ingresas en la aplicacion</string>
+    <string name="writeNumber">Ingresa tu número de celular</string>
+    <string name="_51">+51-</string>
+    <string name="inputnumber">950191996</string>
+    <string name="get_otp">Obtener Codigo</string>
+
+    <!-- Retrieve Message -->
+    <string name="otp_veritication">Verificación</string>
+    <string name="ingrese_el_codigo_otp">Ingrese el codigo de verificación</string>
+    <string name="no_recibiste_el_codigo_otp">No recibiste el codigo</string>
+    <string name="resend_otp">Solicitar codigo</string>
+    <string name="verify">VERIFICAR</string>
+
 </resources>
