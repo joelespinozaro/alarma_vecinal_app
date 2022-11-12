@@ -28,17 +28,5 @@
             android:onClick="Sesion"
             android:text="@string/sesion" />
 
-        <Button
-            android:id="@+id/Registrar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:onClick="Registrar"
-            android:text="@string/registrar" />
-
-
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
 </RelativeLayout>

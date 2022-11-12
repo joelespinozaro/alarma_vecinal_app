@@ -36,6 +36,13 @@
         <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_grupo.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/user/Desktop/alarma_vecinal_app/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main_user.xml" value="0.24722222222222223" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.4108469080041956" />
+        <entry key="app/src/main/res/layout/activity_sesion.xml" value="0.17685185185185184" />
+        <entry key="app/src/main/res/layout/activity_validar_codigo.xml" value="0.2481582641601563" />
+        <entry key="app/src/main/res/layout/activity_validar_num.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/fragment_inicio.xml" value="0.17685185185185184" />
+        <entry key="app/src/main/res/layout/fragment_perfil.xml" value="0.1" />
       </map>
     </option>
   </component>
