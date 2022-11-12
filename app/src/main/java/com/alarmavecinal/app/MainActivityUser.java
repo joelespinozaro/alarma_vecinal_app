@@ -60,6 +60,7 @@ public class MainActivityUser extends AppCompatActivity implements NavigationVie
                 break;
             case R.id.Salir:
                 Toast.makeText(this, "Cerraste Sesion", Toast.LENGTH_SHORT).show();
+
                 break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);

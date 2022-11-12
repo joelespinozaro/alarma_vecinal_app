@@ -20,31 +20,13 @@
             android:layout_height="250dp"
             android:src="@drawable/logovecinal" />
 
-
-        <com.google.android.gms.common.SignInButton
-            android:id="@+id/sign_in_button"
+        <Button
+            android:id="@+id/InicioSesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-        />
-<!--        <Button-->
-<!--            android:id="@+id/InicioSesion"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginTop="15dp"-->
-<!--            android:text="@string/sesion"-->
-<!--            android:onClick="Sesion"/>-->
-
-<!--        <Button-->
-<!--            android:id="@+id/Registrar"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginTop="15dp"-->
-<!--            android:onClick="Registrar"-->
-<!--            android:text="@string/registrar" />-->
-
+            android:layout_marginTop="15dp"
+            android:onClick="Sesion"
+            android:text="@string/sesion" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
 </RelativeLayout>

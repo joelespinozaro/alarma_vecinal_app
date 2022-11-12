@@ -40,6 +40,7 @@
                 android:id="@+id/celular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:enabled="false"
                 android:background="#A08282"
                 android:hint="@string/celular"
                 android:inputType="phone" />
