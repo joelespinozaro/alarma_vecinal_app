@@ -14,13 +14,15 @@ public class User {
     private String celular;
     private String nombres;
     private String apellidos;
+    private String token;//Identificador del aplicativo para el FCM
 
     public User() {}
-    public User(String celular, String nombres, String apellidos) {
+    public User(String celular, String nombres, String apellidos,String token) {
         this.userId = celular;
         this.celular = celular;
         this.nombres = nombres;
         this.apellidos = apellidos;
+        this.token = token;
     }
 
     public String getUserId() {
@@ -53,5 +55,13 @@ public class User {
 
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
     }
 }

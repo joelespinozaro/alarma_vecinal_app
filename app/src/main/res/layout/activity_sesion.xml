@@ -26,7 +26,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:onClick="Sesion"
-            android:text="@string/sesion" />
+            android:text="@string/sesion"
+            android:background="@drawable/background_button"
+            android:textColorHint="@color/black" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 </RelativeLayout>
