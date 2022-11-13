@@ -40,8 +40,8 @@
                 android:id="@+id/celular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:background="#A08282"
+                android:enabled="false"
                 android:hint="@string/celular"
                 android:inputType="phone" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -81,10 +81,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/Registro"
             android:onClick="onSave"
+            android:text="@string/Registro"
             android:textColor="#fff"
-
+            android:background="@drawable/background_button"
             android:textColorHint="@color/black" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>

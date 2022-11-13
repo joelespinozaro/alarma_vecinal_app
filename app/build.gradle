@@ -43,4 +43,8 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:20.3.0'
     implementation 'com.airbnb.android:lottie:3.0.1'
     implementation 'com.google.android.material:material:1.6.1'
+    //Volley
+    implementation 'com.android.volley:volley:1.2.1'
+
+
 }

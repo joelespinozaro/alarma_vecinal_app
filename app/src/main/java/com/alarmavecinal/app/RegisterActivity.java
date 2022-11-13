@@ -18,10 +18,13 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,6 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
     EditText celular, nombre, apellido;
     Button registro;
     private User user;
+    String token;
     private MutableLiveData<User> userExisted;
 
 
@@ -55,6 +59,23 @@ public class RegisterActivity extends AppCompatActivity {
 
         celular = findViewById(R.id.celular);
         celular.setText(getIntent().getStringExtra("userphone"));
+        /*Sacar Token*/
+        FirebaseMessaging.getInstance().getToken()
+                .addOnCompleteListener(new OnCompleteListener<String>() {
+                    @Override
+                    public void onComplete(@NonNull Task<String> task) {
+                        if (!task.isSuccessful()) {
+                            return;
+                        }
+
+                        // Get new FCM registration token
+                        token = task.getResult();
+
+                        // Log and toast
+                        System.out.println("TOKEN " + token);
+                    }
+                });
+        /***********************************/
     }
 
     public void onSave(View view) {
@@ -74,6 +95,7 @@ public class RegisterActivity extends AppCompatActivity {
             user.setCelular(celular);
             user.setNombres(nombres);
             user.setApellidos(apellidos);
+            user.setToken(token);
 
             UserService.getInstance().saveUser(user);
             goToMainActivity();
