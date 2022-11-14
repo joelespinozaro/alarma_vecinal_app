@@ -58,7 +58,14 @@ public class UserService {
     }
     public String saveUser(User user) {
         DocumentReference document;
-        document = mFirestore.collection(User.COLLECTION_NAME).document(user.getUserId());
+
+        if (user.getUserId() != null) {
+            document = mFirestore.collection(User.COLLECTION_NAME).document(user.getUserId());
+        } else {
+            user.setUserId(user.getUserId());
+            document = mFirestore.collection(User.COLLECTION_NAME).document();
+        }
+
         document.set(user);
         return document.getId();
     }
