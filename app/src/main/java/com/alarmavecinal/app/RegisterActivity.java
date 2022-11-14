@@ -43,6 +43,14 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
+        UserService.getInstance().getUserById(UserService.getInstance().getCurrentUser())
+                .observe(this, user -> {
+                    this.user = user;
+                    if (user != null) {
+                        goToMainActivity();
+                    }
+                });
+
         registro = (Button) findViewById(R.id.register);
         celular = findViewById(R.id.celular);
 
