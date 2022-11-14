@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,8 +14,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.alarmavecinal.app.model.User;
-import com.alarmavecinal.app.service.UserService;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;
@@ -31,7 +28,6 @@ public class ValidarCodigoActivity extends AppCompatActivity {
     private EditText inputCode1,inputCode2,inputCode3,inputCode4,inputCode5,inputCode6;
     private String verificationId;
     private String numero;
-    private User user;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,24 +77,10 @@ public class ValidarCodigoActivity extends AppCompatActivity {
                                     progressBar.setVisibility(View.GONE);
                                     buttonVerify.setVisibility(View.VISIBLE);
                                     if(task.isSuccessful()){
-
-                                        try {
-                                            UserService.getInstance().getUserById(UserService.getInstance().getCurrentUser())
-                                                    .observe(ValidarCodigoActivity.this, user -> {
-                                                        ValidarCodigoActivity.this.user = user;
-                                                        if (user != null) {
-                                                            goToMainActivity();
-                                                        } else {
-                                                            Intent intent = new Intent(getApplicationContext(),RegisterActivity.class);
-                                                            intent.putExtra("userphone",numero);
-                                                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                                                            startActivity(intent);
-                                                        }
-                                                    });
-                                        } catch (Exception e) {
-                                            Log.e("ValidarCodigoActivity - Obteniendo info de usuario", e.toString());
-                                        }
-
+                                        Intent intent = new Intent(getApplicationContext(),RegisterActivity.class);
+                                        intent.putExtra("userphone",numero);
+                                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                        startActivity(intent);
                                     }else{
                                         Toast.makeText(ValidarCodigoActivity.this, "Error en la verificacion de codigo", Toast.LENGTH_SHORT).show();
                                     }
@@ -109,6 +91,7 @@ public class ValidarCodigoActivity extends AppCompatActivity {
 
             }
         });
+
         findViewById(R.id.textResendOTP).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -230,9 +213,5 @@ public class ValidarCodigoActivity extends AppCompatActivity {
             }
         });
     }
-    public void goToMainActivity() {
-        finish();
-        Intent intent = new Intent(this, MainActivityUser.class);
-        startActivity(intent);
-    }
+
 }

@@ -28,7 +28,6 @@ public class Perfil extends Fragment {
     Button btnSave;
     private FirebaseUser currentUser;
     private User user;
-    private String token;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -88,7 +87,6 @@ public class Perfil extends Fragment {
                         celularView.setText(user.getCelular());
                         nombreView.setText(user.getNombres());
                         apellidoView.setText(user.getApellidos());
-                        token = user.getToken();
                     }
                 });
 
@@ -117,14 +115,13 @@ public class Perfil extends Fragment {
                         user.setCelular(celular);
                         user.setNombres(nombres);
                         user.setApellidos(apellidos);
-                        user.setToken(token);
 
                         UserService.getInstance().saveUser(user);
                     } else {
                         Log.w("ONSAVE USER", "CAMPOS LLENOS");
                     }
                 } catch (Exception e) {
-                    Log.e("Perfil Fragment", e.toString());
+                    Log.e("Error", e.toString());
                 }
             }
         });
