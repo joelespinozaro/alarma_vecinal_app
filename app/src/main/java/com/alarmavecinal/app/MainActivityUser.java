@@ -15,6 +15,8 @@ import com.alarmavecinal.app.fragmentos.CrearGrupo;
 import com.alarmavecinal.app.fragmentos.Inicio;
 import com.alarmavecinal.app.fragmentos.Perfil;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class MainActivityUser extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout drawerLayout;
@@ -58,8 +60,8 @@ public class MainActivityUser extends AppCompatActivity implements NavigationVie
                 break;
             case R.id.Salir:
                 Toast.makeText(this, "Cerraste Sesion", Toast.LENGTH_SHORT).show();
-                break;
 
+                break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

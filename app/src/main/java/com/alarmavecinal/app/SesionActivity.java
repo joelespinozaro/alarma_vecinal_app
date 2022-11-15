@@ -14,10 +14,9 @@ public class SesionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sesion);
         sesion = (Button) findViewById(R.id.InicioSesion);
-        registro = (Button) findViewById(R.id.Registrar);
     }
     public void Sesion(View view){
-        Intent intent = new Intent(this, MainActivityUser.class);
+        Intent intent = new Intent(this, ValidarNumActivity.class);
         startActivity(intent);
         finish();
     }

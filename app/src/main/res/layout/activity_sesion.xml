@@ -25,20 +25,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:onClick="Sesion"
             android:text="@string/sesion"
-            android:onClick="Sesion"/>
-
-        <Button
-            android:id="@+id/Registrar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:onClick="Registrar"
-            android:text="@string/registrar" />
-
+            android:background="@drawable/background_button"
+            android:textColorHint="@color/black" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
 </RelativeLayout>

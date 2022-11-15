@@ -43,7 +43,8 @@
                 android:layout_height="wrap_content"
                 android:background="#A08282"
                 android:hint="@string/cellphoneUser"
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:enabled="false"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,12 +82,14 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/btnSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="45dp"
             android:text="@string/guardar"
             android:textColor="#fff"
-            android:background="@color/black" />
+            android:background="@color/black"
+            android:onClick="onClick"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
