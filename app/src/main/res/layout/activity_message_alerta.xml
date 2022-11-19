@@ -70,8 +70,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@color/black"
-            android:textColorHint="@color/black"
-            android:text="@string/cerrar" />
+            android:text="@string/cerrar"
+            android:textColorHint="@color/black" />
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
