@@ -7,9 +7,12 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView; //add
 
 public class MessageAlerta extends AppCompatActivity {
     ImageButton btn_alert;
+    TextView tv_titulo; //add
+    TextView tv_mensaje;//add
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,14 @@ public class MessageAlerta extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);//Habilitamos el boton de retroceso
         actionBar.setDisplayShowHomeEnabled(true);
         btn_alert = findViewById(R.id.btn_alert);//Id del boton de alerta
+
+        tv_titulo = (TextView) findViewById(R.id.titulo); //add
+        tv_mensaje = (TextView) findViewById(R.id.mensaje);
+
+        String titulo = getIntent().getStringExtra("dato1");
+        String mensaje = getIntent().getStringExtra("dato2");
+        tv_titulo.setText(titulo+"");
+        tv_mensaje.setText(mensaje+"");
 
         /*btn_alert.setOnClickListener(new View.OnClickListener() {
             @Override

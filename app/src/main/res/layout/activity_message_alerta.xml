@@ -46,6 +46,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -55,13 +56,13 @@
             android:textSize="15sp" />
 
         <TextView
+            android:id="@+id/mensaje"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:background="@drawable/fondoet"
             android:gravity="center"
-            android:text="@string/messageAlert"
             android:textColor="#000" />
 
         <Button
