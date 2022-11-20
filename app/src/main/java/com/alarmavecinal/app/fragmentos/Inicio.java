@@ -21,7 +21,7 @@ import com.alarmavecinal.app.service.FCMSend;
 
 
 public class Inicio extends Fragment {
-    EditText _message;
+    EditText _message; //mensajeee
     ImageButton buttonAlerta;
     private Context _context;
     User user;
