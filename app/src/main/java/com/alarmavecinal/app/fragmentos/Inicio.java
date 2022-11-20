@@ -25,7 +25,7 @@ public class Inicio extends Fragment {
     ImageButton buttonAlerta;
     private Context _context;
     User user;
-    String toke="ct9h9litRf-O3jexq-2Ch7:APA91bFQ9hUJC480X8a8SLH-OHGMdaBigXjATRXkneRlc-xPFGHGXWyHPH1UMmzZtws6ROKEfxQnDRZL8a1AwFDj9d8CiMH669ncgFln7RIayaVWmsf4SEklaRi4mcmJz9HxRkuhimR3";
+    String toke="eeSagbPtQYqagxQ8_uAmlt:APA91bGJaWhctN-4AYKqHjNRdAe5yrAOxnHQ8uyv7y-SeknBvzSWPw2w7WRXduXUK1puAXAv2uWUA-JXPfSuEoJhSqPmoAMFKA1Z9l-f5eyZVvrzwCfMF3C1xtzx1OKiL1OWY0aV1NiL";
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -47,8 +47,8 @@ public class Inicio extends Fragment {
                     FCMSend.pushNotification(_context, toke, title,message);
                 }
                 Toast.makeText(_context, "Enviando Alerta", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getActivity(),MessageAlerta.class);
-                startActivity(intent);
+                //Intent intent = new Intent(getActivity(),MessageAlerta.class); //anterior
+                //startActivity(intent); //anterior
             }
         });
         return view;
