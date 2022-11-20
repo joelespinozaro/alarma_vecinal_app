@@ -73,7 +73,5 @@ public class CrearGrupo extends Fragment {
 
     }
 
-    public void generarCodigoGrupo(){
-        this.CodigoGroup = "1234L";
-    }
+    public void generarCodigoGrupo(){        this.CodigoGroup = "1234L";}
 }
