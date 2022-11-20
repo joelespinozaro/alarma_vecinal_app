@@ -66,17 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:textColorHint="#fff">
-            <EditText
-                android:id="@+id/contact"
-                android:hint="Contactos"
-                android:background="#A08282"
-                android:textColor="#fff"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:layout_marginTop="30dp"/>
-        </com.google.android.material.textfield.TextInputLayout>
+            android:textColorHint="#fff"/>
 
         <Button
             android:id="@+id/guardarGrupo"
