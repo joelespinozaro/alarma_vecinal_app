@@ -30,7 +30,7 @@ public class Inicio extends Fragment {
     Button policia, bombero;
     private Context _context;
     User user;
-    String toke="eeSagbPtQYqagxQ8_uAmlt:APA91bGJaWhctN-4AYKqHjNRdAe5yrAOxnHQ8uyv7y-SeknBvzSWPw2w7WRXduXUK1puAXAv2uWUA-JXPfSuEoJhSqPmoAMFKA1Z9l-f5eyZVvrzwCfMF3C1xtzx1OKiL1OWY0aV1NiL";
+    String toke="e-nGRgNZTEWssfQ2LIIX6T:APA91bHjq7S4IpAANI7H2Nwihf2KvDQU13klEHMfhT-Mtps5ssQuVNn19zfAbab8h95KCvUbPw_6Bnbyvreed1f0_umKFSBfM3iXHWj-wYYOWu67L5nG_5g0nAxyd_-pie4vXEobv-tU";
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
