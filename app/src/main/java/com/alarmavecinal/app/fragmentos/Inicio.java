@@ -1,9 +1,13 @@
 package com.alarmavecinal.app.fragmentos;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -23,6 +27,7 @@ import com.alarmavecinal.app.service.FCMSend;
 public class Inicio extends Fragment {
     EditText _message;
     ImageButton buttonAlerta;
+    Button policia, bombero;
     private Context _context;
     User user;
     String toke="e-nGRgNZTEWssfQ2LIIX6T:APA91bHjq7S4IpAANI7H2Nwihf2KvDQU13klEHMfhT-Mtps5ssQuVNn19zfAbab8h95KCvUbPw_6Bnbyvreed1f0_umKFSBfM3iXHWj-wYYOWu67L5nG_5g0nAxyd_-pie4vXEobv-tU";
@@ -51,6 +56,41 @@ public class Inicio extends Fragment {
                 //startActivity(intent); //anterior
             }
         });
+
+        bombero=(Button) view.findViewById(R.id.bombero);
+        policia=(Button) view.findViewById(R.id.policia);
+
+
+
+
+
+        bombero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent p=new Intent(Intent.ACTION_CALL, Uri.parse("tel:116"));
+                if(ActivityCompat.checkSelfPermission(Inicio.this._context, Manifest.permission.CALL_PHONE)!=
+                        PackageManager.PERMISSION_GRANTED)
+                    return;
+                startActivity(p);
+            }
+        });
+
+        policia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent p=new Intent(Intent.ACTION_CALL, Uri.parse("tel:105"));
+                if(ActivityCompat.checkSelfPermission(Inicio.this._context, Manifest.permission.CALL_PHONE)!=
+                        PackageManager.PERMISSION_GRANTED)
+                    return;
+                startActivity(p);
+            }
+        });
+
+
+
+
+
+
         return view;
     }
 
