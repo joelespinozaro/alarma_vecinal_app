@@ -63,5 +63,7 @@
     <string name="no_recibiste_el_codigo_otp">No recibiste el codigo</string>
     <string name="resend_otp">Solicitar codigo</string>
     <string name="verify">VERIFICAR</string>
+    <!-- Channel id -->
+    <string name="default_notification_channel_id">MESSAGE</string>
 
 </resources>

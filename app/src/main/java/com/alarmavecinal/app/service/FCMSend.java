@@ -1,5 +1,6 @@
 package com.alarmavecinal.app.service;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.StrictMode;
 
@@ -29,10 +30,19 @@ public class FCMSend {
         try{
             JSONObject json = new JSONObject();
             json.put("to",token);
+
             JSONObject notification = new JSONObject();
             notification.put("title",title);
             notification.put("body",message);
+            notification.put("click_action","com.alarmavecinal.app_TARGET_NOTIFICATION");
+            notification.put("channel_id","MESSAGE");
+            notification.put("android_channel_id","MESSAGE");
+
+            JSONObject data = new JSONObject();
+            data.put("extra_information","This is some extra information");
+
             json.put("notification",notification);
+            json.put("data",data);
 
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, URL, json, new Response.Listener<JSONObject>() {
                 @Override

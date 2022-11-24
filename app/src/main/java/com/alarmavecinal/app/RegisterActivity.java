@@ -6,6 +6,7 @@ import androidx.core.app.NotificationCompat;
 
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -36,7 +37,7 @@ public class RegisterActivity extends AppCompatActivity {
     private User user;
     String token;
     private MutableLiveData<User> userExisted;
-
+    private SharedPreferences preferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +77,8 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                 });
         /***********************************/
+        /*Inicializando el SharedPreferences*/
+        preferences = getSharedPreferences("Preferences",MODE_PRIVATE);
     }
 
     public void onSave(View view) {
@@ -98,6 +101,12 @@ public class RegisterActivity extends AppCompatActivity {
             user.setToken(token);
 
             UserService.getInstance().saveUser(user);
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putString("celular",celular);
+            editor.putString("nombres",nombres);
+            editor.putString("apellidos",apellidos);
+            editor.putString("token",token);
+            editor.commit();
             goToMainActivity();
         } else {
             Log.w("ONSAVE USER", "ERROR");
