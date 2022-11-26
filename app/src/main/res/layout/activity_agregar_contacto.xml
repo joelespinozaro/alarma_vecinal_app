@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#A08282">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:text="Agregar Contactos"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/perfil"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgTitulo" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Nro Celular"
+            android:inputType="textPersonName"
+            android:textColorHint="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnSelec"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            app:fabCustomSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintStart_toEndOf="@+id/editTextTextPersonNumber"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+            app:srcCompat="@drawable/ic_baseline_add_24"
+            tools:ignore="VectorDrawableCompat" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textColorHint="#fff"/>
+
+        <Button
+            android:id="@+id/button"
+            android:textColor="#fff"
+            android:text="@string/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/black"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>
