@@ -29,8 +29,8 @@ public class MessageAlerta extends AppCompatActivity {
         tv_titulo = (TextView) findViewById(R.id.titulo); //add
         tv_mensaje = (TextView) findViewById(R.id.mensaje);
 
-        String titulo = getIntent().getStringExtra("dato1");
-        String mensaje = getIntent().getStringExtra("dato2");
+        String titulo = getIntent().getStringExtra("title");
+        String mensaje = getIntent().getStringExtra("message");
         tv_titulo.setText(titulo+"");
         tv_mensaje.setText(mensaje+"");
 
