@@ -15,6 +15,70 @@
       },
       "oauth_client": [
         {
+          "client_id": "416018613969-0i4fi9orvom8nsp3fg3v3pab46oa8lau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alarmavecinal.app",
+            "certificate_hash": "5cf4cb8a24b30f5d634c8ebc62180e2d8350b4c8"
+          }
+        },
+        {
+          "client_id": "416018613969-5981pq5djpcrm6hhbctkl76aufjmltmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alarmavecinal.app",
+            "certificate_hash": "9fa9c28a2c1a6e1d9a2ceb53000147aa9cd58cbb"
+          }
+        },
+        {
+          "client_id": "416018613969-b5gjgs0m8v8lcffk5t9kfg19anqg1a6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alarmavecinal.app",
+            "certificate_hash": "8138cd75abfcb6b98eb366978fe39ae3847bb0d8"
+          }
+        },
+        {
+          "client_id": "416018613969-icsbm4kpvil5muunpfairdshnbt9oenn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alarmavecinal.app",
+            "certificate_hash": "448aa7bbc32915989f33d5d474ed38449c5c876e"
+          }
+        },
+        {
+          "client_id": "416018613969-osgusppmo8b1jenqen0qv9la432l20st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alarmavecinal.app",
+            "certificate_hash": "f75f4d3a3a8ab30fc7ed190ad757ec58a7518551"
+          }
+        },
+        {
+          "client_id": "416018613969-t5fdicbf55i5rmh0mthu27bk9vbg4118.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alarmavecinal.app",
+            "certificate_hash": "b875dc8ea2dec918468e57090f642171d93aaee2"
+          }
+        },
+        {
+          "client_id": "416018613969-vdtbd5ulet941nbhsq604nbs7d22ar1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alarmavecinal.app",
+            "certificate_hash": "16d38314c7f210f2c0f072c189b182423472d3ee"
+          }
+        },
+        {
+          "client_id": "416018613969-vjp9sura0p9375nlbt45r14ekjvlol1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alarmavecinal.app",
+            "certificate_hash": "2ee3d2bdf0301b595b6a2ca27000301199c16a54"
+          }
+        },
+        {
           "client_id": "416018613969-n8e75a3iv543ehm80qnlla1i06vmq4b0.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -28,7 +92,110 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "416018613969-n8e75a3iv543ehm80qnlla1i06vmq4b0.apps.googleusercontent.com",
+              "client_id": "416018613969-4ie5nr724hmipv4bmq8ktagrc3iuvuqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416018613969:android:9e728a5563152df3c527f0",
+        "android_client_info": {
+          "package_name": "com.elizabetlaura.notificacionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416018613969-r0bi3lh8beg047klava0qkn0p9me9vn1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elizabetlaura.notificacionapp",
+            "certificate_hash": "b875dc8ea2dec918468e57090f642171d93aaee2"
+          }
+        },
+        {
+          "client_id": "416018613969-n8e75a3iv543ehm80qnlla1i06vmq4b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDPXDEHkmpX2WBSgPXdlhw0TdUIFmkvL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416018613969-4ie5nr724hmipv4bmq8ktagrc3iuvuqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416018613969:android:f3a168ba4d6ba80dc527f0",
+        "android_client_info": {
+          "package_name": "com.example.verification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416018613969-n8e75a3iv543ehm80qnlla1i06vmq4b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDPXDEHkmpX2WBSgPXdlhw0TdUIFmkvL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416018613969-4ie5nr724hmipv4bmq8ktagrc3iuvuqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416018613969:android:8e0bdce25246f6fdc527f0",
+        "android_client_info": {
+          "package_name": "com.gianinahual.appnotificacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416018613969-rjjcro43mhv7729a4mr4or54anpvsufd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gianinahual.appnotificacion",
+            "certificate_hash": "448aa7bbc32915989f33d5d474ed38449c5c876e"
+          }
+        },
+        {
+          "client_id": "416018613969-n8e75a3iv543ehm80qnlla1i06vmq4b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDPXDEHkmpX2WBSgPXdlhw0TdUIFmkvL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416018613969-4ie5nr724hmipv4bmq8ktagrc3iuvuqp.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
