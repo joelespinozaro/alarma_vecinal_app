@@ -68,13 +68,14 @@
             android:layout_marginTop="25dp"
             android:textColorHint="#fff"/>
 
+
         <Button
             android:id="@+id/guardarGrupo"
             android:textColor="#fff"
             android:text="@string/guardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="10dp"
             android:background="@color/black"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
